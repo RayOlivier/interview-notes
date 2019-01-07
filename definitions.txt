@@ -1,0 +1,14 @@
+My favorite brief definitions of web dev terms
+
+-Event Loop: "The event loop is the term given to the process of the waiting for the queue to receive a message synchronously. The increment that the event loop moves in is called a ‘tick’, and every time it ‘ticks’ it checks if the call stack is empty, if so , it adds the top function in the event queue to the call stack and executes it. Once it is finished processing this function it starts ticking again."
+    >"A very interesting property of the event loop model is that JavaScript, unlike a lot of other languages, NEVER BLOCKS."
+    >"Javascript is capable of Asynchronous operations through the SINGLE THREAD of execution. This means that an event such as a database request can be performed and while the request is being performed other events can still be performed such as a user scrolling or entering data."
+
+-Hoisting: "Hoisting is JavaScript's default behavior of moving declarations to the top."
+    >Basically, it doesn't matter where you declare something in your code. But it matters if you assign it a value. (ie, var x; can go anywhere but var x=10 can not)
+
+-REST: "REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are STATELESS and separate the concerns of client and server."
+    >"Systems that follow the REST paradigm are STATELESS, meaning that the server does not need to know anything about what state the client is in and vice versa"
+    >uses HTTP GET, PUT, POST, DELETE
+    >so this refers to RESTful api, and an alternative is SOAP
+
