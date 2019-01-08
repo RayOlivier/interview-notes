@@ -12,3 +12,8 @@ My favorite brief definitions of web dev terms
     >uses HTTP GET, PUT, POST, DELETE
     >so this refers to RESTful api, and an alternative is SOAP
 
+-Closures: "Global variables can be made local (private) with closures."
+    >function myFunction() {
+        var a = 4; //now a can only be accessed by calling this function
+        return a * a;
+        }
