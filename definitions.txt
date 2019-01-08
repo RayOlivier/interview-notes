@@ -17,3 +17,12 @@ My favorite brief definitions of web dev terms
         var a = 4; //now a can only be accessed by calling this function
         return a * a;
         }
+
+-SCSS/SASS: "SASS (Syntactically Awesome Stylesheet) is a CSS pre-processor which helps to reduce repetition with CSS and saves time. It is more stable and powerful CSS extension language that describes style of document cleanly and structurally."
+    >advantages: EASIER TO READ, nesting, MIXINS, faster to write, is now built in to create-react-app
+    >disadvantages: learning curve, you have to try to make all devs use it or it's awkward, "chances of losing benefits of browser's built-in element inspector"
+    >SASS is a superset of CSS
+
+-Inner Join: compares the commonalities in a table and returns only those. EX: the middle of a venn diagram
+
+-Outer Join: combines and returns ALL of the data from 2+ tables. EX: a full outer is the entire venn... a left outer is the left circle of the venn.
