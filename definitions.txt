@@ -26,3 +26,11 @@ My favorite brief definitions of web dev terms
 -Inner Join: compares the commonalities in a table and returns only those. EX: the middle of a venn diagram
 
 -Outer Join: combines and returns ALL of the data from 2+ tables. EX: a full outer is the entire venn... a left outer is the left circle of the venn.
+
+*-Event Delegation: "Event delegation allows you to avoid adding event listeners to specific nodes;  instead, the event listener is added to one parent.  That event listener analyzes bubbled events to find a match on child elements."
+
+-AJAX: "Asynchronous Javascript and XML. AJAX is a misleading name. AJAX applications might use XML to transport data, but it is equally common to transport data as plain text or JSON text."  
+    >This is just basically referring to async stuff
+
+-Webpack: "Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
+    >create-react-app has webpack built in
