@@ -1,0 +1,6 @@
+-What's the difference between let and var?
+    >let is new with ES6 and has block scope (meaning it's contained within curly brackets)
+    >var has function scope and is hoisted
+
+-What's the difference between == and ===?
+    > == only compares value, === compares value and type

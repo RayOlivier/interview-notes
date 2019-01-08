@@ -6,6 +6,7 @@ My favorite brief definitions of web dev terms
 
 -Hoisting: "Hoisting is JavaScript's default behavior of moving declarations to the top."
     >Basically, it doesn't matter where you declare something in your code. But it matters if you assign it a value. (ie, var x; can go anywhere but var x=10 can not)
+    >const and let CAN'T be hoisted
 
 -REST: "REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are STATELESS and separate the concerns of client and server."
     >"Systems that follow the REST paradigm are STATELESS, meaning that the server does not need to know anything about what state the client is in and vice versa"
@@ -34,3 +35,4 @@ My favorite brief definitions of web dev terms
 
 -Webpack: "Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
     >create-react-app has webpack built in
+
